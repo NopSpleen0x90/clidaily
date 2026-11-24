@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLI Daily — Impara il terminale, un comando al giorno</title>
+<meta name="description" content="Impara il terminale con un comando al giorno: Linux, macOS, PowerShell e CMD. Esempi veri, errori da evitare ed esercizi corretti dall'AI.">
+<meta name="apple-itunes-app" content="app-id=6820275640">
+<meta property="og:title" content="CLI Daily — un comando al giorno">
+<meta property="og:description" content="Impara il terminale in pochi minuti al giorno. Gratis sull'App Store.">
+<meta property="og:image" content="icon.png">
+<link rel="icon" href="icon.png">
+<style>
+  :root{--bg:#0a0d0c;--card:#141917;--line:#24302b;--txt:#e8ece9;--mut:#9aa6a0;--acc:#3ddc84}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 16px 48px}
+  header{display:flex;align-items:center;gap:14px}
+  header img{width:64px;height:64px;border-radius:15px}
+  header b{font-size:22px}
+  header span{display:block;color:var(--mut);font-size:14px}
+  h1{font-size:34px;line-height:1.15;margin:30px 0 12px}
+  h1 em{font-style:normal;color:var(--acc);font-family:ui-monospace,Menlo,monospace}
+  p.lead{color:var(--mut);margin:0 0 22px}
+  .cta{display:inline-flex;align-items:center;gap:10px;background:var(--acc);color:#04130a;font-weight:700;text-decoration:none;padding:15px 24px;border-radius:14px;font-size:18px}
+  .cta svg{width:20px;height:20px}
+  .note{font-size:14px;color:var(--mut);margin-top:10px}
+  ul{list-style:none;padding:0;margin:30px 0;display:grid;gap:10px}
+  li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  li b{color:var(--acc);font-family:ui-monospace,Menlo,monospace;margin-right:6px}
+  .shots{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}
+  .shots img{width:200px;flex:none;border-radius:16px;border:1px solid var(--line);scroll-snap-align:start}
+  .bottom{text-align:center;margin-top:36px}
+  footer{margin-top:40px;font-size:13px;color:var(--mut);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="icon.png" alt="Icona CLI Daily"><div><b>CLI Daily</b><span>Linux · macOS · PowerShell · CMD</span></div></header>
+
+  <h1>Impara il terminale.<br><em>$ un comando al giorno</em></h1>
+  <p class="lead">Pochi minuti al giorno: esempi veri, errori da evitare ed esercizi corretti dall'AI. Dal primo <code>ls</code> a <code>grep</code>, <code>find</code> e <code>chmod</code> senza paura.</p>
+
+  <a class="cta" id="dl" href="https://apps.apple.com/app/apple-store/id6820275640?pt=128953638&ct=landing&mt=8">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4zM13.9 5c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>
+    Scarica gratis su App Store
+  </a>
+  <div class="note">Premium gratis per 7 giorni con il piano annuale.</div>
+
+  <ul>
+    <li><b>1</b>Un comando nuovo ogni giorno, spiegato con esempi pratici.</li>
+    <li><b>2</b>Gli errori più comuni (sì, anche <code>chmod 777</code>) e come evitarli.</li>
+    <li><b>3</b>Esercizi e quiz corretti dall'AI, con streak e livelli per restare costante.</li>
+    <li><b>4</b>Linux, macOS, PowerShell e CMD in un'unica app.</li>
+  </ul>
+
+  <div class="shots">
+    <img src="s1.jpg" alt="Schermata: comando del giorno" loading="lazy">
+    <img src="s2.jpg" alt="Schermata: lezione" loading="lazy">
+    <img src="s3.jpg" alt="Schermata: esercizio" loading="lazy">
+  </div>
+
+  <div class="bottom"><a class="cta" id="dl2" href="https://apps.apple.com/app/apple-store/id6820275640?pt=128953638&ct=landing&mt=8">Scarica CLI Daily</a></div>
+
+  <footer>CLI Daily · Disponibile per iPhone e iPad</footer>
+</div>
+<script>
+  (function(){
+    var ok={meta_grep:1,meta_quiz:1,meta_chmod:1,instagram_bio:1,landing:1};
+    var ct=new URLSearchParams(location.search).get('ct');
+    if(!ct||!ok[ct]) return;
+    var url='https://apps.apple.com/app/apple-store/id6820275640?pt=128953638&ct='+ct+'&mt=8';
+    document.getElementById('dl').href=url;
+    document.getElementById('dl2').href=url;
+  })();
+</script>
+</body>
+</html>
